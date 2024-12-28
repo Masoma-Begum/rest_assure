@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed capture]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="chaining.GetUser">
+        <methods>
+          <include name="tesUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- chaining.GetUser -->
+      <class name="chaining.UpdatUser">
+        <methods>
+          <include name="updateUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- chaining.UpdatUser -->
+      <class name="chaining.DeleteUser">
+        <methods>
+          <include name="deleteUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- chaining.DeleteUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Failed capture] -->

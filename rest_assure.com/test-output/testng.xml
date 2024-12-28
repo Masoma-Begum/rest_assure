@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Chain">
+  <test thread-count="5" name="ChainTest">
+    <classes>
+      <class name="rest_assure.com.TokenValidation"/>
+      <class name="chaining.DeleteUser"/>
+      <class name="rest_assure.com.Put"/>
+      <class name="rest_assure.com.PathQuaryParameters"/>
+      <class name="rest_assure.com.Post"/>
+      <class name="chaining.CreateUser"/>
+      <class name="rest_assure.com.Get"/>
+      <class name="rest_assure.com.GetUserInfo"/>
+      <class name="chaining.GetUser"/>
+      <class name="rest_assure.com.HeaderValidation"/>
+      <class name="chaining.UpdatUser"/>
+      <class name="rest_assure.com.CookiesTest"/>
+    </classes>
+  </test> <!-- ChainTest -->
+</suite> <!-- Chain -->
